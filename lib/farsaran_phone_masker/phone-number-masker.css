@@ -1,0 +1,43 @@
+.phone-number-masker {
+  display: inline;
+}
+
+.phone-number-masker .pnm-desc {
+  display: none;
+}
+.phone-number-masker .pnm-desc .pnm-desc-inner {
+  border: 1px solid;
+  width: 35em;
+  background-color: #fff;
+  text-align: justify;
+  margin: 1em;
+  padding: 1em 2em;
+  font-size: 0.9em;
+
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+
+
+.phone-number-masker .visible-part::after {
+  content: '...';
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
+.phone-number-masker .pnm-button {
+  margin-right: 0.5em;
+  font-size: 80%;
+  padding: 0.3em 0.5em;
+  cursor: pointer;
+  color: #fff;
+
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+
+  background-color: #f0ad44;
+}
