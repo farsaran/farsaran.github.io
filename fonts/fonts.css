@@ -3,7 +3,8 @@
  * Import the sahel font.
  */
 @import url("sahel/sahel.css");
+@import url('vazirmatn/Vazirmatn-font-face.css');
 
 body, * {
-  font-family: Sahel, Tahoma, serif;
+  font-family: Vazirmatn, Tahoma, serif;
 }
